@@ -1,45 +1,133 @@
 <!DOCTYPE html>
-<!--
-Proyecto de Ingenieria de Software
-Grupo: 4T3-CO
-Semestre: II
-Docente: 
-Erick Javier Pavón Méndez
-Wenddy Yoska Lacayo Quintana
-Marcosrafael Garcia
--->
-<html>
-    <head>
-        <title>CATALOG MAKER 2.0</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-<!-- Latest compiled and minified CSS -->
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Simple login form</title>
+    
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 
     
-    </head>
-    <body>
-        <div>
-        <h1>Bienvenidos a Catalog Maker</h1>
-        <h3>Estamos en Construccion</h3>
-        <ul type="circle">
-            <li>Erick Javier Pavón Méndez</li>
-            <li>Wenddy Yoska Lacayo Quintana</li>
-            <li>Marcosrafael Garcia</li>
-           
-        </ul>
+    
+  </head>
 
-        </div>
-        <footer>WENRICSOFT COMPANY</footer>
-        
-        <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-       
+  <body>
       
-    </body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">INICIO</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Perfil<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Mis Catalogos</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true">TODOS<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+             <li><a href="#">Todos los Departamentos</a></li>
+            <li><a href="#">Ropa, Zapato y joyas</a></li>
+            <li><a href="#">    Hombre</a></li>
+            <li><a href="#">    Mujer</a></li>
+            <li><a href="#">    Niños</a></li>   
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Buscar">
+        </div>
+        <button type="submit" class="btn btn-default">Enviar</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Sign In</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true">Todos<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Todos los Departamentos</a></li>
+            <li><a href="#">Ropa, Zapato y joyas</a></li>
+            <li><a href="#">    Hombre</a></li>
+            <li><a href="#">    Mujer</a></li>
+            <li><a href="#">    Niños</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+      
+      
+      
+      
+      <div class="jumbotron">
+  <h1>Bienvenido! Descubre una mejor manera de presentar tus productos!</h1>
+  <p>Crear algo</p>
+  <p>Crear algo</p>
+  <p>Crear algo</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Ingresar</a></p>
+</div>
+      
+      
+      <div class="jumbotron">
+  <h1>Una muestra para crear anuncios antes de que los usuarios lo utilicen</h1>
+  <p>EN CONSTRUCCION....</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Ingresar</a></p>
+</div>
+      
+      
+<div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="http://www.mensshoecentre.co.za/productImages/018-150%20Onitsuka%20Tiger.JPG" alt="250">
+    </a>
+  </div>
+  ...
+</div>
+
+      
+      <div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="http://vestidosdenoviamodernos.com/wp-content/uploads/2016/03/modelos-de-vestidos-de-novias-bonitos.jpg" alt="35">
+      <div class="caption">
+        <h2>TRAJE DE NOVIA SAN PATRICKS</h3>
+        <h5>Vendo mi traje de novia de st, patricks, impecable, limpio de tintoreria, es una talla 40, mando más fotos si es necesario, costo más de 2500 euros, ver sin compromiso.</h5>
+        <h5>Precio: 850 $</h5>
+        <p><a href="#" class="btn btn-primary" role="button">Contactar</a> <a href="#" class="btn btn-success" role="button">Compartir</a><a href="#" class="btn btn-info" role="button">Favorito</a><a href="#" class="btn btn-primary" role="button">Ver Catalogo</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+      
+      
+      
+ 
+<script src="js/index.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    
+  </body>
 </html>
